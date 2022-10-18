@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("raj80dockerid/test")
+       app = docker.build("roshmi/GitOpsK8sTest")
     }
 
     stage('Test image') {
